@@ -1,0 +1,13 @@
+<div class="topnav">
+  <a routerLinkActive="active" routerLink="/home">Home</a>
+  <a routerLinkActive="active" routerLink="/gallery">Gallery</a>
+  <a routerLinkActive="active" routerLink="/groceries">Groceries</a>
+  <a routerLinkActive="active" routerLink="/takeaways">Takeaways</a>
+  <a routerLinkActive="active" routerLink="/profile">Profile</a>
+  <div class="topnav-right">
+    <a routerLinkActive="active" routerLink="/login">{{ (isLoggedIn$ | async)?.length  ? 'Logout': 'Login' }}</a>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>
