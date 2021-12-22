@@ -1,6 +1,18 @@
+# NX MFE PoC (angular and ngrx)
 
+## Components
+- nx
+- module federation
+- angular
+- sharing state management by ngrx
+- sharing access token cross micro frontends
+- example how to expose and use Module and Component
+- dynamic loading exposed component
 
-# NX MFE PoC
+## Login credential
+```
+demo/demo
+```
 
 ## Install
 Run `npm install`
