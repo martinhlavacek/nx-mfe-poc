@@ -5,7 +5,7 @@
 ## Install
 Run `npm install`
 
-## Run all micro frontend
+## Run all micro frontends
 
 Run `npm start`
 
