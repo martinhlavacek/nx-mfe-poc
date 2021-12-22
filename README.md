@@ -7,7 +7,7 @@ Run `npm install`
 
 ## Run all micro frontends
 
-Run `npm start`
+Run `npm start` or `nx run shell:serve-mfe`
 
 ## Add new frontend
 
