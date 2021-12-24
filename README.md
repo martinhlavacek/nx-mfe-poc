@@ -21,6 +21,8 @@ Run `npm install`
 
 Run `npm start` or `nx run shell:serve-mfe`
 
+> shell application is running on http://localhost:3000
+
 ## Add new frontend
 
 Run `npx nx g @nrwl/angular:app [frontend name] --mfe --mfeType=remote --port=[port number] --host=shell --routing=true` to generate new frontend.
